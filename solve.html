@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solve Clues - Clover Clues</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Solve Clues</h1>
+        <div class="content">
+            <!-- Game Board -->
+            <div class="game-board">
+                <div class="board-grid">
+                    <div class="card-slot"></div>
+                    <div class="card-slot"></div>
+                    <div class="card-slot"></div>
+                    <div class="card-slot"></div>
+                </div>
+            </div>
+            
+            <!-- Card Holders -->
+            <div id="card-holder-area" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; max-width: 490px; margin-left: auto; margin-right: auto;">
+                <div class="card-slot card-holder">
+                    <div class="game-card" draggable="true">
+                        <div class="card-word top">TOP</div>
+                        <div class="card-word right">RIGHT</div>
+                        <div class="card-word bottom">BOTTOM</div>
+                        <div class="card-word left">LEFT</div>
+                    </div>
+                </div>
+                <div class="card-slot card-holder">
+                    <div class="game-card" draggable="true">
+                        <div class="card-word top">TOP</div>
+                        <div class="card-word right">RIGHT</div>
+                        <div class="card-word bottom">BOTTOM</div>
+                        <div class="card-word left">LEFT</div>
+                    </div>
+                </div>
+                <div class="card-slot card-holder">
+                    <div class="game-card" draggable="true">
+                        <div class="card-word top">TOP</div>
+                        <div class="card-word right">RIGHT</div>
+                        <div class="card-word bottom">BOTTOM</div>
+                        <div class="card-word left">LEFT</div>
+                    </div>
+                </div>
+                <div class="card-slot card-holder">
+                    <div class="game-card" draggable="true">
+                        <div class="card-word top">TOP</div>
+                        <div class="card-word right">RIGHT</div>
+                        <div class="card-word bottom">BOTTOM</div>
+                        <div class="card-word left">LEFT</div>
+                    </div>
+                </div>
+                <div class="card-slot card-holder">
+                    <div class="game-card" draggable="true">
+                        <div class="card-word top">WORD</div>
+                        <div class="card-word right">CLUE</div>
+                        <div class="card-word bottom">GAME</div>
+                        <div class="card-word left">PLAY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="index.html" class="nav-button">Back to Menu</a>
+        </div>
+    </div>
+    
+    <script>
+        let draggedCard = null;
+        let draggedCardOriginalParent = null;
+        let draggedCardOriginalNextSibling = null;
+
+        // Add drag event listeners to all cards
+        document.querySelectorAll('.game-card').forEach(card => {
+            card.addEventListener('dragstart', handleDragStart);
+            card.addEventListener('dragend', handleDragEnd);
+        });
+
+        // Add drop event listeners to all card slots
+        document.querySelectorAll('.card-slot').forEach(slot => {
+            slot.addEventListener('dragover', handleDragOver);
+            slot.addEventListener('drop', handleDrop);
+        });
+
+        function handleDragStart(e) {
+            draggedCard = e.target;
+            draggedCardOriginalParent = e.target.parentNode;
+            draggedCardOriginalNextSibling = e.target.nextSibling;
+            
+            e.target.style.opacity = '0.5';
+            e.dataTransfer.effectAllowed = 'move';
+        }
+
+        function handleDragEnd(e) {
+            e.target.style.opacity = '1';
+            draggedCard = null;
+            draggedCardOriginalParent = null;
+            draggedCardOriginalNextSibling = null;
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            
+            if (!draggedCard) return;
+
+            const dropTarget = e.target.closest('.card-slot');
+            
+            if (dropTarget && dropTarget.children.length === 0) {
+                // Remove occupied class from previous slot
+                document.querySelectorAll('.card-slot.occupied').forEach(slot => {
+                    if (slot.children.length === 0) {
+                        slot.classList.remove('occupied');
+                    }
+                });
+                
+                // Add card to new slot
+                dropTarget.appendChild(draggedCard);
+                
+                // Add occupied class only to board slots, not card holders
+                if (!dropTarget.classList.contains('card-holder')) {
+                    dropTarget.classList.add('occupied');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
