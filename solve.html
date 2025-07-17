@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Solve Clues - Clover Clues</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Solve Clues</h1>
+        <button class="solve-button" onclick="solveAttempt()">Solve</button>
+        <div id="error-message" class="error-message"></div>
         <div class="content">
             <!-- Game Board -->
             <div class="game-board">
+                <div class="clue top-clue"></div>
+                <div class="clue right-clue"></div>
+                <div class="clue bottom-clue"></div>
+                <div class="clue left-clue"></div>
                 <div class="board-grid">
                     <div class="card-slot"></div>
                     <div class="card-slot"></div>
@@ -26,6 +33,7 @@
                         <div class="card-word right">RIGHT</div>
                         <div class="card-word bottom">BOTTOM</div>
                         <div class="card-word left">LEFT</div>
+                        <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
@@ -34,6 +42,7 @@
                         <div class="card-word right">RIGHT</div>
                         <div class="card-word bottom">BOTTOM</div>
                         <div class="card-word left">LEFT</div>
+                        <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
@@ -42,6 +51,7 @@
                         <div class="card-word right">RIGHT</div>
                         <div class="card-word bottom">BOTTOM</div>
                         <div class="card-word left">LEFT</div>
+                        <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
@@ -50,6 +60,7 @@
                         <div class="card-word right">RIGHT</div>
                         <div class="card-word bottom">BOTTOM</div>
                         <div class="card-word left">LEFT</div>
+                        <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
@@ -58,6 +69,7 @@
                         <div class="card-word right">CLUE</div>
                         <div class="card-word bottom">GAME</div>
                         <div class="card-word left">PLAY</div>
+                        <button class="rotate-btn">↻</button>
                     </div>
                 </div>
             </div>
@@ -71,17 +83,27 @@
         let draggedCard = null;
         let draggedCardOriginalParent = null;
         let draggedCardOriginalNextSibling = null;
+        
+        // Track rotation state for each card (0, 90, 180, 270 degrees)
+        const cardRotations = new Map();
 
         // Add drag event listeners to all cards
         document.querySelectorAll('.game-card').forEach(card => {
             card.addEventListener('dragstart', handleDragStart);
             card.addEventListener('dragend', handleDragEnd);
+            // Initialize rotation state
+            cardRotations.set(card, 0);
         });
 
         // Add drop event listeners to all card slots
         document.querySelectorAll('.card-slot').forEach(slot => {
             slot.addEventListener('dragover', handleDragOver);
             slot.addEventListener('drop', handleDrop);
+        });
+        
+        // Add click event listeners to all rotate buttons
+        document.querySelectorAll('.rotate-btn').forEach(btn => {
+            btn.addEventListener('click', handleRotate);
         });
 
         function handleDragStart(e) {
@@ -129,6 +151,29 @@
                 }
             }
         }
+        
+        function handleRotate(e) {
+            e.stopPropagation(); // Prevent triggering drag
+            const gameCard = e.target.closest('.game-card');
+            if (!gameCard) return;
+            
+            // Get current rotation
+            let currentRotation = cardRotations.get(gameCard) || 0;
+            
+            // Rotate counterclockwise (add 90 degrees)
+            currentRotation = (currentRotation + 90) % 360;
+            cardRotations.set(gameCard, currentRotation);
+            
+            // Get the word elements
+            const words = gameCard.querySelectorAll('.card-word');
+            const wordTexts = Array.from(words).map(word => word.textContent);
+            
+            // Rotate words counterclockwise: top -> left, right -> top, bottom -> right, left -> bottom
+            words[0].textContent = wordTexts[1]; // top gets right's text
+            words[1].textContent = wordTexts[2]; // right gets bottom's text
+            words[2].textContent = wordTexts[3]; // bottom gets left's text
+            words[3].textContent = wordTexts[0]; // left gets top's text
+        }
 
         async function loadPuzzle(filename) {
             try {
@@ -159,12 +204,58 @@
                         cardWords[1].textContent = cardData.words[1]; // right
                         cardWords[2].textContent = cardData.words[2]; // bottom
                         cardWords[3].textContent = cardData.words[3]; // left
+                        
+                        // Add rotate button if it doesn't exist
+                        if (!gameCard.querySelector('.rotate-btn')) {
+                            const rotateBtn = document.createElement('button');
+                            rotateBtn.className = 'rotate-btn';
+                            rotateBtn.textContent = '↻';
+                            rotateBtn.addEventListener('click', handleRotate);
+                            gameCard.appendChild(rotateBtn);
+                        }
                     }
                 });
+            }
+            
+            // Populate clues around the board
+            if (puzzle && puzzle.clues) {
+                // Assuming puzzle.clue contains the clue text sections
+                const clueTexts = puzzle.clues || [];
+                if (clueTexts.length >= 4) {
+                    document.querySelector('.top-clue').textContent = clueTexts[0];
+                    document.querySelector('.right-clue').textContent = clueTexts[1];
+                    document.querySelector('.bottom-clue').textContent = clueTexts[2];
+                    document.querySelector('.left-clue').textContent = clueTexts[3];
+                }
             }
         }
 
         window.addEventListener('load', initSolve);
+        
+        function solveAttempt() {
+            // Get all board slots (not card holders)
+            const boardSlots = document.querySelectorAll('.board-grid .card-slot');
+            const errorMessageDiv = document.getElementById('error-message');
+            let allSlotsFilled = true;
+            
+            // Clear any previous error message
+            errorMessageDiv.textContent = '';
+            
+            // Check if each board slot has a card
+            boardSlots.forEach(slot => {
+                if (!slot.querySelector('.game-card')) {
+                    allSlotsFilled = false;
+                }
+            });
+            
+            if (!allSlotsFilled) {
+                errorMessageDiv.textContent = 'Bord incomplete';
+                return;
+            }
+            
+            // Board is complete - continue with solve logic
+            console.log('Board is complete, ready to check solution');
+        }
     </script>
 </body>
 </html>
