@@ -201,10 +201,10 @@
                         
                         // Map words to card positions: top, right, bottom, left
                         cardWords[0].textContent = cardData.words[0]; // top
-                        cardWords[1].textContent = cardData.words[1]; // right
+                        cardWords[1].textContent = cardData.words[3]; // right
                         cardWords[2].textContent = cardData.words[2]; // bottom
-                        cardWords[3].textContent = cardData.words[3]; // left
-                        
+                        cardWords[3].textContent = cardData.words[1]; // left
+
                         // Add rotate button if it doesn't exist
                         if (!gameCard.querySelector('.rotate-btn')) {
                             const rotateBtn = document.createElement('button');

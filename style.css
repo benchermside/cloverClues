@@ -124,7 +124,7 @@ h1 {
 .card-word.right {
     right: 40%;
     top: 50%;
-    transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(-90deg);
     transform-origin: center;
 }
 
@@ -136,7 +136,7 @@ h1 {
 .card-word.left {
     left: 40%;
     top: 50%;
-    transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(90deg);
     transform-origin: center;
 }
 
