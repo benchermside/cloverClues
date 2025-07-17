@@ -129,6 +129,42 @@
                 }
             }
         }
+
+        async function loadPuzzle(filename) {
+            try {
+                const response = await fetch(filename);
+                const puzzles = await response.json();
+                return puzzles[0];
+            } catch (error) {
+                console.error('Error loading puzzles.json:', error);
+            }
+        }
+        async function initSolve(){
+            console.log("hi")
+            const puzzle = await loadPuzzle("puzzles.json");
+            console.log(puzzle);
+            
+            // Get all game cards
+            const gameCards = document.querySelectorAll('.game-card');
+            
+            // Populate each game card with words from the puzzle
+            if (puzzle && puzzle.cards) {
+                puzzle.cards.forEach((cardData, index) => {
+                    if (index < gameCards.length && cardData.words && cardData.words.length === 4) {
+                        const gameCard = gameCards[index];
+                        const cardWords = gameCard.querySelectorAll('.card-word');
+                        
+                        // Map words to card positions: top, right, bottom, left
+                        cardWords[0].textContent = cardData.words[0]; // top
+                        cardWords[1].textContent = cardData.words[1]; // right
+                        cardWords[2].textContent = cardData.words[2]; // bottom
+                        cardWords[3].textContent = cardData.words[3]; // left
+                    }
+                });
+            }
+        }
+
+        window.addEventListener('load', initSolve);
     </script>
 </body>
 </html>
