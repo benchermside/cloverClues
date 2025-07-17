@@ -86,6 +86,10 @@
         
         // Track rotation state for each card (0, 90, 180, 270 degrees)
         const cardRotations = new Map();
+        // Track card IDs
+        const cardIds = new Map();
+        // Store puzzle solution for checking
+        let puzzleSolution = null;
 
         // Add drag event listeners to all cards
         document.querySelectorAll('.game-card').forEach(card => {
@@ -205,6 +209,10 @@
                         cardWords[2].textContent = cardData.words[2]; // bottom
                         cardWords[3].textContent = cardData.words[1]; // left
 
+                        // Save card ID and initialize rotation
+                        cardIds.set(gameCard, cardData.id);
+                        cardRotations.set(gameCard, 0);
+
                         // Add rotate button if it doesn't exist
                         if (!gameCard.querySelector('.rotate-btn')) {
                             const rotateBtn = document.createElement('button');
@@ -215,6 +223,11 @@
                         }
                     }
                 });
+            }
+            
+            // Store puzzle solution
+            if (puzzle && puzzle.solution) {
+                puzzleSolution = puzzle.solution;
             }
             
             // Populate clues around the board
@@ -232,6 +245,43 @@
 
         window.addEventListener('load', initSolve);
         
+        function checkSolution() {
+            console.log("puzzleSolution", puzzleSolution);
+            if (!puzzleSolution) {
+                console.log('No solution data available');
+                return false;
+            }
+            
+            const boardSlots = Array.from(document.querySelectorAll('.board-grid .card-slot'));
+            const slotOrder = [0,1,3,2];
+            for (let i = 0; i < boardSlots.length; i++) {
+                const slot = boardSlots[slotOrder[i]];
+                const card = slot.querySelector('.game-card');
+                
+                if (!card) {
+                    return false; // No card in this slot
+                }
+                
+                const cardId = cardIds.get(card);
+                const cardRotation = cardRotations.get(card) || 0;
+                const expectedSolution = puzzleSolution[i];
+                
+                if (!expectedSolution) {
+                    return false; // No expected solution for this position
+                }
+                
+                const expectedId = expectedSolution.id;
+                const expectedRotation = (expectedSolution.orient * 90) % 360;
+                
+                if (cardId !== expectedId || cardRotation !== expectedRotation) {
+                    console.log("found problem", cardId, expectedId, cardRotation, expectedRotation);
+                    return false; // Card ID or rotation doesn't match
+                }
+            }
+            
+            return true; // All positions are correct
+        }
+
         function solveAttempt() {
             // Get all board slots (not card holders)
             const boardSlots = document.querySelectorAll('.board-grid .card-slot');
@@ -253,8 +303,14 @@
                 return;
             }
             
-            // Board is complete - continue with solve logic
-            console.log('Board is complete, ready to check solution');
+            // Check if solution is correct
+            if (checkSolution()) {
+                errorMessageDiv.textContent = 'Correct!';
+                errorMessageDiv.style.color = '#27ae60';
+            } else {
+                errorMessageDiv.textContent = 'Incorrect solution';
+                errorMessageDiv.style.color = '#e74c3c';
+            }
         }
     </script>
 </body>
