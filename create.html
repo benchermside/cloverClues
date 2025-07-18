@@ -7,9 +7,23 @@
 <body>
     <div class="container">
         <h1>Create Clues</h1>
+        <button id="submit-clue" class="nav-button" style="margin: 20px auto; display: block;">Submit Clue</button>
+        <div id="error-message" style="color: red; text-align: center; margin: 10px 0; display: none;"></div>
         <div class="content">
             <!-- Game Board -->
-            <div class="game-board">
+            <div class="game-board" style="position: relative; padding: 60px;">
+                <!-- Top clue -->
+                <input type="text" class="clue-input" placeholder="Enter top clue" style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 300px; text-align: center;">
+                
+                <!-- Left clue -->
+                <input type="text" class="clue-input" placeholder="Enter left clue" style="position: absolute; left: -120px; top: 50%; transform: translateY(-50%) rotate(-90deg); width: 300px; text-align: center;">
+                
+                <!-- Right clue -->
+                <input type="text" class="clue-input" placeholder="Enter right clue" style="position: absolute; right: -120px; top: 50%; transform: translateY(-50%) rotate(90deg); width: 300px; text-align: center;">
+                
+                <!-- Bottom clue -->
+                <input type="text" class="clue-input" placeholder="Enter bottom clue" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); width: 300px; text-align: center;">
+                
                 <div class="board-grid">
                     <div class="card-slot occupied">
                         <div class="game-card" draggable="true">
@@ -159,6 +173,36 @@
                 }
             }
         }
+
+        // Submit clue functionality
+        function sendClue() {
+            // For now, just return to main menu
+            window.location.href = 'index.html';
+        }
+
+        // Add submit button click handler
+        document.getElementById('submit-clue').addEventListener('click', function() {
+            // Get all clue inputs
+            const clueInputs = document.querySelectorAll('.clue-input');
+            const errorMessage = document.getElementById('error-message');
+            let allFilled = true;
+            
+            // Check if any clue input is empty
+            for (let input of clueInputs) {
+                if (input.value.trim() === '') {
+                    allFilled = false;
+                    break;
+                }
+            }
+            
+            if (!allFilled) {
+                errorMessage.textContent = 'Please fill in all clue text boxes before submitting.';
+                errorMessage.style.display = 'block';
+            } else {
+                errorMessage.style.display = 'none';
+                sendClue();
+            }
+        });
     </script>
 </body>
 </html>
