@@ -84,18 +84,14 @@
 
         // Function to generate words for cards
         async function generateWords() {
-            // TODO: Uncomment when getWords.py is implemented
-            // try {
-            //     const response = await fetch('getWords.py');
-            //     const words = await response.json();
-            //     return words;
-            // } catch (error) {
-            //     console.error('Error fetching words:', error);
-            //     return Array(20).fill('placeholder');
-            // }
-            
-            // For now, return placeholder words
-            return Array(20).fill('placeholder');
+            try {
+                const response = await fetch('getWords.py');
+                const words = await response.json();
+                return words;
+            } catch (error) {
+                console.error('Error fetching words:', error);
+                return Array(20).fill('placeholder');// Return placeholder words if fetch fails
+            }
         }
 
         // Function to populate cards with words

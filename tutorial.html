@@ -19,21 +19,51 @@
             </div>
             
             <!-- Card Holders -->
-            <div id="card-holder-area" style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
-                <div class="card-slot card-holder">
-                    <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
+            <div id="card-holder-area" style="display: flex; flex-direction: column; gap: 20px; align-items: center; margin-top: 20px;">
+                <!-- First row - 3 cards -->
+                <div style="display: flex; gap: 20px; justify-content: center;">
+                    <div class="card-slot card-holder">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">TOP</div>
+                            <div class="card-word right">RIGHT</div>
+                            <div class="card-word bottom">BOTTOM</div>
+                            <div class="card-word left">LEFT</div>
+                        </div>
+                    </div>
+                    <div class="card-slot card-holder">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">WORD</div>
+                            <div class="card-word right">CLUE</div>
+                            <div class="card-word bottom">GAME</div>
+                            <div class="card-word left">PLAY</div>
+                        </div>
+                    </div>
+                    <div class="card-slot card-holder">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">NORTH</div>
+                            <div class="card-word right">EAST</div>
+                            <div class="card-word bottom">SOUTH</div>
+                            <div class="card-word left">WEST</div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-slot card-holder">
-                    <div class="game-card" draggable="true">
-                        <div class="card-word top">WORD</div>
-                        <div class="card-word right">CLUE</div>
-                        <div class="card-word bottom">GAME</div>
-                        <div class="card-word left">PLAY</div>
+                <!-- Second row - 2 cards -->
+                <div style="display: flex; gap: 20px; justify-content: center;">
+                    <div class="card-slot card-holder">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">HELLO</div>
+                            <div class="card-word right">WORLD</div>
+                            <div class="card-word bottom">GOOD</div>
+                            <div class="card-word left">BYE</div>
+                        </div>
+                    </div>
+                    <div class="card-slot card-holder">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">FIRST</div>
+                            <div class="card-word right">SECOND</div>
+                            <div class="card-word bottom">THIRD</div>
+                            <div class="card-word left">FOURTH</div>
+                        </div>
                     </div>
                 </div>
             </div>
