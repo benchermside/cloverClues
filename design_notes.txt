@@ -1,15 +1,15 @@
 DynamoDB Database:
 
 Table Name: "Settings"
-    Partition Key: "FieldName" (String)
+    Partition Key: "settingName" (String)
     Fields:
-      * "FieldName" (String)
-      * "Value" (type varies from one entry to another)
+      * "settingName" (String)
+      * "value" (type varies from one entry to another)
 
 Table Name: "Puzzles"
-    Partition Key: "PuzzleId" (Number)
+    Partition Key: "puzzleId" (Number)
     Values:
-     * "PuzzleId" (Number)
-     * "Puzzle" (String) This contains the JSON definition for a Puzzle
-     * "HumanGenerated" (Boolean) True if this was human-generated
+     * "puzzleId" (Number)
+     * "puzzle" (String) This contains the JSON definition for a Puzzle
+     * "humanGenerated" (Boolean) True if this was human-generated
 
