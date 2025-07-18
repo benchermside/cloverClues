@@ -11,10 +11,38 @@
             <!-- Game Board -->
             <div class="game-board">
                 <div class="board-grid">
-                    <div class="card-slot"></div>
-                    <div class="card-slot"></div>
-                    <div class="card-slot"></div>
-                    <div class="card-slot"></div>
+                    <div class="card-slot occupied">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">placeholder</div>
+                            <div class="card-word right">placeholder</div>
+                            <div class="card-word bottom">placeholder</div>
+                            <div class="card-word left">placeholder</div>
+                        </div>
+                    </div>
+                    <div class="card-slot occupied">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">placeholder</div>
+                            <div class="card-word right">placeholder</div>
+                            <div class="card-word bottom">placeholder</div>
+                            <div class="card-word left">placeholder</div>
+                        </div>
+                    </div>
+                    <div class="card-slot occupied">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">placeholder</div>
+                            <div class="card-word right">placeholder</div>
+                            <div class="card-word bottom">placeholder</div>
+                            <div class="card-word left">placeholder</div>
+                        </div>
+                    </div>
+                    <div class="card-slot occupied">
+                        <div class="game-card" draggable="true">
+                            <div class="card-word top">placeholder</div>
+                            <div class="card-word right">placeholder</div>
+                            <div class="card-word bottom">placeholder</div>
+                            <div class="card-word left">placeholder</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -22,18 +50,10 @@
             <div id="card-holder-area" style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
                 <div class="card-slot card-holder">
                     <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
-                    </div>
-                </div>
-                <div class="card-slot card-holder">
-                    <div class="game-card" draggable="true">
-                        <div class="card-word top">WORD</div>
-                        <div class="card-word right">CLUE</div>
-                        <div class="card-word bottom">GAME</div>
-                        <div class="card-word left">PLAY</div>
+                        <div class="card-word top">placeholder</div>
+                        <div class="card-word right">placeholder</div>
+                        <div class="card-word bottom">placeholder</div>
+                        <div class="card-word left">placeholder</div>
                     </div>
                 </div>
             </div>
@@ -48,16 +68,50 @@
         let draggedCardOriginalParent = null;
         let draggedCardOriginalNextSibling = null;
 
-        // Add drag event listeners to all cards
-        document.querySelectorAll('.game-card').forEach(card => {
-            card.addEventListener('dragstart', handleDragStart);
-            card.addEventListener('dragend', handleDragEnd);
-        });
+        // Function to generate words for cards
+        async function generateWords() {
+            // TODO: Uncomment when getWords.py is implemented
+            // try {
+            //     const response = await fetch('getWords.py');
+            //     const words = await response.json();
+            //     return words;
+            // } catch (error) {
+            //     console.error('Error fetching words:', error);
+            //     return Array(20).fill('placeholder');
+            // }
+            
+            // For now, return placeholder words
+            return Array(20).fill('placeholder');
+        }
 
-        // Add drop event listeners to all card slots
-        document.querySelectorAll('.card-slot').forEach(slot => {
-            slot.addEventListener('dragover', handleDragOver);
-            slot.addEventListener('drop', handleDrop);
+        // Function to populate cards with words
+        async function populateCards() {
+            const words = await generateWords();
+            const cardWords = document.querySelectorAll('.card-word');
+            
+            // Populate all card words (5 cards × 4 words each = 20 words total)
+            cardWords.forEach((wordElement, index) => {
+                if (index < words.length) {
+                    wordElement.textContent = words[index];
+                }
+            });
+        }
+
+        // Initialize page when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            populateCards();
+            
+            // Add drag event listeners to all cards
+            document.querySelectorAll('.game-card').forEach(card => {
+                card.addEventListener('dragstart', handleDragStart);
+                card.addEventListener('dragend', handleDragEnd);
+            });
+
+            // Add drop event listeners to all card slots
+            document.querySelectorAll('.card-slot').forEach(slot => {
+                slot.addEventListener('dragover', handleDragOver);
+                slot.addEventListener('drop', handleDrop);
+            });
         });
 
         function handleDragStart(e) {
