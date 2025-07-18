@@ -1,0 +1,18 @@
+{
+  "cards": [
+    {"id": 1, "words": ["Boat", "Sun", "Leaf", "Ground"]},
+    {"id": 2, "words": ["Business", "Myth", "Dig", "Big"]},
+    {"id": 3, "words": ["Belt", "China", "Wind", "Bark"]},
+    {"id": 4, "words": ["Letter", "Safari", "Sewer", "Engine"]},
+    {"id": 5, "words": ["New", "Violin", "Fairy", "Cuddle"]}
+  ],
+  "clues": [
+    "Music", "Fey", "Locomotive", "Poetry"
+  ],
+  "solution": [
+    {"id": 3, "orient": 2},
+    {"id": 5, "orient": 3},
+    {"id": 2, "orient": 0},
+    {"id": 4, "orient": 3}
+  ]
+}

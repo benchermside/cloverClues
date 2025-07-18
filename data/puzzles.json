@@ -1,0 +1,3652 @@
+[
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Monterrey",
+          "Britton",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Deacon",
+          "Heretics",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Especially",
+          "Breakeven",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Stocked",
+          "Wanderings",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "City",
+      "Clergy",
+      "Particularly",
+      "Filled"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Statutory",
+          "Extreme",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Comradeship",
+          "Wink",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Dracula",
+          "Calderon",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Polygraph",
+          "Communal",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Legal",
+      "Friendship",
+      "Vampire",
+      "Detector"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Amnesia",
+          "Dilate",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Bogota",
+          "Ostensibly",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Ophthalmic",
+          "Consolations",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Stature",
+          "Ines",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Forget",
+      "Capital",
+      "Eye",
+      "Height"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Sepoys",
+          "Equating",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Menagerie",
+          "Transitions",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Humerus",
+          "Mover",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Waistband",
+          "Rubies",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Soldiers",
+      "Collection",
+      "Bone",
+      "Belt"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Personal",
+          "Scarcely",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Nonsteroidal",
+          "Oau",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Dramatizes",
+          "Machining",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Booted",
+          "Hypothesized",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Private",
+      "Medical",
+      "Performs",
+      "Kicked"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Baptist",
+          "Eucalyptus",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Encodes",
+          "Aqueous",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Oppose",
+          "Counterweight",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Maxine",
+          "Organizing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Church",
+      "Encrypts",
+      "Resist",
+      "Arranging"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Bayesian",
+          "Cocoa",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Palpate",
+          "Legged",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Trepidation",
+          "Devastating",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Nederlandse",
+          "Absurd",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Statistical",
+      "Touch",
+      "Fear",
+      "Dutch"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Stooping",
+          "Bearing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Quarreled",
+          "Liberal",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Org",
+          "Viscera",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Rats",
+          "Mini",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Bending",
+      "Argued",
+      "Organization",
+      "Rodents"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Hertz",
+          "Elasticities",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Nicosia",
+          "Wagner",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Braddock",
+          "Territories",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Knower",
+          "Privates",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Frequency",
+      "Cyprus",
+      "Regions",
+      "Aware"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Mishra",
+          "Endothelial",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Rippled",
+          "Invest",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Cmnd",
+          "Gunn",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Discontents",
+          "Nar",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Cells",
+      "Waved",
+      "Command",
+      "Unhappiness"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Dodo",
+          "Slid",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Substantiated",
+          "Warner",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Tua",
+          "Debauchery",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Polym",
+          "Nfs",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Extinct",
+      "Proven",
+      "Excess",
+      "Polymer"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Feng",
+          "Commend",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Serialization",
+          "Tinder",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Foreshadows",
+          "Same",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Diversity",
+          "Zipper",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Praise",
+      "Sequence",
+      "Predicts",
+      "Variety"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Ecsc",
+          "Mounting",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Evergreen",
+          "Completed",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Clipping",
+          "Basketry",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Dribble",
+          "Jacopo",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Rising",
+      "Permanent",
+      "Cutting",
+      "Drip"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Democritus",
+          "Deprecated",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Urethral",
+          "Oglethorpe",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Gelatine",
+          "Bernal",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Coverings",
+          "Pestilence",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Philosopher",
+      "Urinary",
+      "Gel",
+      "Shields"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Shack",
+          "Lumiere",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Pragmatism",
+          "Basaltic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Lippmann",
+          "Surged",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Fluttering",
+          "Grasped",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Hut",
+      "Practical",
+      "Rushed",
+      "Flapping"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Napoli",
+          "Photographed",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Serves",
+          "Cypriots",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Ficino",
+          "Hurl",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Intimidation",
+          "Neck",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Naples",
+      "Provides",
+      "Throw",
+      "Threat"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Bro",
+          "Cil",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Microfilm",
+          "Characterization",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Imports",
+          "Empires",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Machiavelli",
+          "Markets",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Brother",
+      "Recording",
+      "Kingdoms",
+      "Politics"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Dough",
+          "Gravitate",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Objected",
+          "Coarse",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Vigil",
+          "Unintelligible",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Morehouse",
+          "Entertains",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Bread",
+      "Protested",
+      "Watch",
+      "Amuses"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Excise",
+          "Venezia",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Consciences",
+          "Drunk",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Macro",
+          "Eventual",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Arya",
+          "Cree",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Remove",
+      "Morals",
+      "Large",
+      "Names"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Omnipotent",
+          "Caleb",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Legitimized",
+          "Pugh",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Produces",
+          "Commercially",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Verlaine",
+          "Survive",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Powerful",
+      "Validated",
+      "Creates",
+      "Endure"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Rachel",
+          "Insurer",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Credence",
+          "Dewar",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Nicht",
+          "Attic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Lymphocytes",
+          "Ecosystem",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Provider",
+      "Belief",
+      "Not",
+      "Cells"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Wielding",
+          "Snipers",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Meantime",
+          "Designation",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Inexplicably",
+          "Suboptimal",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Filler",
+          "Raided",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Using",
+      "Meanwhile",
+      "Mysteriously",
+      "Padding"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Heats",
+          "Larkin",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Campers",
+          "Hamster",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Juin",
+          "Nada",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Perilous",
+          "Paraphrasing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Warms",
+      "Outdoors",
+      "June",
+      "Dangerous"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Lyceum",
+          "Trace",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Mourner",
+          "Finger",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Tin",
+          "Lothar",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Denaturation",
+          "Volunteered",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "School",
+      "Griever",
+      "Metal",
+      "Unfolding"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Binocular",
+          "Violations",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Nothings",
+          "Speech",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Rising",
+          "Blume",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Conversions",
+          "Barium",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Vision",
+      "Talk",
+      "Ascending",
+      "Changes"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Explication",
+          "Dielectric",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Pardons",
+          "Compress",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Begum",
+          "Councils",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Caldwell",
+          "Syllable",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Explanation",
+      "Forgives",
+      "Queen",
+      "Sound"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Kidnapping",
+          "Silvery",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Humiliating",
+          "Substitution",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Abscesses",
+          "Ancient",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Pms",
+          "Socialist",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Abduction",
+      "Embarrassing",
+      "Old",
+      "Political"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Misalignment",
+          "Asad",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Mycelium",
+          "Feedforward",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Soes",
+          "Nepali",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Foams",
+          "Acrobat",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Crooked",
+      "Fungus",
+      "Nepal",
+      "Bubbles"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Apply",
+          "Foretell",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Metropolitan",
+          "Sheba",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Documentary",
+          "Berenson",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Jennifer",
+          "Holbrook",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Predict",
+      "Urban",
+      "Film",
+      "Name"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Acquittal",
+          "Lorenz",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Scores",
+          "Tits",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Silently",
+          "Printed",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Favourites",
+          "Watkins",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Release",
+      "Points",
+      "Quietly",
+      "Preferred"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Degrades",
+          "Nurse",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Antisemitic",
+          "Blazer",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Keppel",
+          "Engineer",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Bhopal",
+          "Ngc",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Worsens",
+      "Jacket",
+      "Designer",
+      "India"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Coolie",
+          "Blowing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Comely",
+          "Simplistic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Gautama",
+          "Jessie",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Inherited",
+          "Estimated",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Laborer",
+      "Attractive",
+      "Buddha",
+      "Received"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Avoid",
+          "Conflagration",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Tanya",
+          "Sauvignon",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Subjection",
+          "Exudate",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Irritants",
+          "Tragic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Evade",
+      "Wine",
+      "Submission",
+      "Annoying"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Resident",
+          "Showers",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Normalcy",
+          "Microbial",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Sustains",
+          "Rearing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Sham",
+          "Sleeper",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Inhabitant",
+      "Normal",
+      "Maintains",
+      "Fake"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Microvascular",
+          "Agni",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Quartermaster",
+          "Consuming",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Bachman",
+          "Postmodernist",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Corti",
+          "Instrumentalities",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Vessels",
+      "Supplier",
+      "Artist",
+      "Tools"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Academy",
+          "Favourably",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Limited",
+          "Afterlife",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Bahrain",
+          "Pearl",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Recurrent",
+          "Brooded",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "School",
+      "Restricted",
+      "Island",
+      "Repeated"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Ans",
+          "Omitted",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Annoyance",
+          "Apostrophe",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Spraying",
+          "Beneficial",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Swallows",
+          "Martin",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Skipped",
+      "Irritation",
+      "Helpful",
+      "Birds"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Heidegger",
+          "Vedanta",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Droplet",
+          "Approximated",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Forbidden",
+          "Onlooker",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Mina",
+          "Clergymen",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Philosophy",
+      "Estimated",
+      "Prohibited",
+      "Priests"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Interdependence",
+          "Types",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Mirage",
+          "Praised",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Grumbled",
+          "Influencing",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Radishes",
+          "Joinder",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Connection",
+      "Illusion",
+      "Complained",
+      "Vegetables"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Scold",
+          "Vara",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Faerie",
+          "Austenite",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Nanjing",
+          "Entropy",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Ryerson",
+          "Polynomial",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Rebuke",
+      "Fairy",
+      "City",
+      "Equation"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Parallelism",
+          "Suddenness",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Aucun",
+          "Exact",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Favored",
+          "Crazy",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Vasopressin",
+          "Riveted",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Simultaneous",
+      "None",
+      "Preferred",
+      "Hormone"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Agitating",
+          "Scrutiny",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Dominicans",
+          "Yanks",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Regulate",
+          "Fortified",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Ballinger",
+          "Truthful",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Stirring",
+      "Americans",
+      "Control",
+      "Honest"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Downwards",
+          "Etiquette",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Foramina",
+          "Kippur",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Affective",
+          "Artichokes",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Move",
+          "Gujarat",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Descending",
+      "Openings",
+      "Emotional",
+      "Relocate"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Benediction",
+          "Spermatic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Battleships",
+          "Cio",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Allusion",
+          "Crete",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Acer",
+          "Slats",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Blessing",
+      "Warships",
+      "Reference",
+      "Wood"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Staring",
+          "Chancel",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Ecliptic",
+          "Rifts",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Hence",
+          "Rafters",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Interleukin",
+          "Aci",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Gazing",
+      "Orbital",
+      "Therefore",
+      "Protein"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Carney",
+          "Pues",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Windings",
+          "Igf",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Ati",
+          "Dossier",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Scrawny",
+          "Mulch",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Name",
+      "Coils",
+      "File",
+      "Thin"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Senza",
+          "Postgraduate",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Wealthiest",
+          "Applying",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Transpersonal",
+          "Logging",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Wisps",
+          "Lockout",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Without",
+      "Richest",
+      "Recording",
+      "Strands"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Jar",
+          "Harv",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Beech",
+          "Bosnia",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Bruxelles",
+          "Extract",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Redirected",
+          "Denizens",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Container",
+      "Tree",
+      "Brussels",
+      "Inhabitants"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Weaker",
+          "Diameters",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Aversion",
+          "Intramolecular",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Lettres",
+          "Paws",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Executive",
+          "Chords",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Feebler",
+      "Dislike",
+      "Letters",
+      "Manager"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "id": 1,
+        "words": [
+          "Repayments",
+          "Fled",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          "Sterilize",
+          "Dyadic",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          "Oliphant",
+          "Helices",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          "Enumerated",
+          "Nehru",
+          "null",
+          "null"
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          "null",
+          "null",
+          "null",
+          "null"
+        ]
+      }
+    ],
+    "clues": [
+      "Escaped",
+      "Clean",
+      "Spirals",
+      "Listed"
+    ],
+    "solution": [
+      {
+        "id": 1,
+        "orient": 0
+      },
+      {
+        "id": 2,
+        "orient": 0
+      },
+      {
+        "id": 3,
+        "orient": 0
+      },
+      {
+        "id": 4,
+        "orient": 0
+      }
+    ]
+  }
+]

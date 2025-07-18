@@ -1,0 +1,15 @@
+DynamoDB Database:
+
+Table Name: "Settings"
+    Partition Key: "FieldName" (String)
+    Fields:
+      * "FieldName" (String)
+      * "Value" (type varies from one entry to another)
+
+Table Name: "Puzzles"
+    Partition Key: "PuzzleId" (Number)
+    Values:
+     * "PuzzleId" (Number)
+     * "Puzzle" (String) This contains the JSON definition for a Puzzle
+     * "HumanGenerated" (Boolean) True if this was human-generated
+

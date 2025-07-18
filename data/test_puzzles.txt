@@ -1,0 +1,300 @@
+Puzzle 1:
+  Pair 1: Monterrey, Britton: City
+  Pair 2: Deacon, Heretics: Clergy
+  Pair 3: Especially, Breakeven: Particularly
+  Pair 4: Stocked, Wanderings: Filled
+
+Puzzle 2:
+  Pair 1: Statutory, Extreme: Legal
+  Pair 2: Comradeship, Wink: Friendship
+  Pair 3: Dracula, Calderon: Vampire
+  Pair 4: Polygraph, Communal: Detector
+
+Puzzle 3:
+  Pair 1: Amnesia, Dilate: Forget
+  Pair 2: Bogota, Ostensibly: Capital
+  Pair 3: Ophthalmic, Consolations: Eye
+  Pair 4: Stature, Ines: Height
+
+Puzzle 4:
+  Pair 1: Sepoys, Equating: Soldiers
+  Pair 2: Menagerie, Transitions: Collection
+  Pair 3: Humerus, Mover: Bone
+  Pair 4: Waistband, Rubies: Belt
+
+Puzzle 5:
+  Pair 1: Personal, Scarcely: Private
+  Pair 2: Nonsteroidal, Oau: Medical
+  Pair 3: Dramatizes, Machining: Performs
+  Pair 4: Booted, Hypothesized: Kicked
+
+Puzzle 6:
+  Pair 1: Baptist, Eucalyptus: Church
+  Pair 2: Encodes, Aqueous: Encrypts
+  Pair 3: Oppose, Counterweight: Resist
+  Pair 4: Maxine, Organizing: Arranging
+
+Puzzle 7:
+  Pair 1: Bayesian, Cocoa: Statistical
+  Pair 2: Palpate, Legged: Touch
+  Pair 3: Trepidation, Devastating: Fear
+  Pair 4: Nederlandse, Absurd: Dutch
+
+Puzzle 8:
+  Pair 1: Stooping, Bearing: Bending
+  Pair 2: Quarreled, Liberal: Argued
+  Pair 3: Org, Viscera: Organization
+  Pair 4: Rats, Mini: Rodents
+
+Puzzle 9:
+  Pair 1: Hertz, Elasticities: Frequency
+  Pair 2: Nicosia, Wagner: Cyprus
+  Pair 3: Braddock, Territories: Regions
+  Pair 4: Knower, Privates: Aware
+
+Puzzle 10:
+  Pair 1: Mishra, Endothelial: Cells
+  Pair 2: Rippled, Invest: Waved
+  Pair 3: Cmnd, Gunn: Command
+  Pair 4: Discontents, Nar: Unhappiness
+
+Puzzle 11:
+  Pair 1: Dodo, Slid: Extinct
+  Pair 2: Substantiated, Warner: Proven
+  Pair 3: Tua, Debauchery: Excess
+  Pair 4: Polym, Nfs: Polymer
+
+Puzzle 12:
+  Pair 1: Feng, Commend: Praise
+  Pair 2: Serialization, Tinder: Sequence
+  Pair 3: Foreshadows, Same: Predicts
+  Pair 4: Diversity, Zipper: Variety
+
+Puzzle 13:
+  Pair 1: Ecsc, Mounting: Rising
+  Pair 2: Evergreen, Completed: Permanent
+  Pair 3: Clipping, Basketry: Cutting
+  Pair 4: Dribble, Jacopo: Drip
+
+Puzzle 14:
+  Pair 1: Democritus, Deprecated: Philosopher
+  Pair 2: Urethral, Oglethorpe: Urinary
+  Pair 3: Gelatine, Bernal: Gel
+  Pair 4: Coverings, Pestilence: Shields
+
+Puzzle 15:
+  Pair 1: Shack, Lumiere: Hut
+  Pair 2: Pragmatism, Basaltic: Practical
+  Pair 3: Lippmann, Surged: Rushed
+  Pair 4: Fluttering, Grasped: Flapping
+
+Puzzle 16:
+  Pair 1: Napoli, Photographed: Naples
+  Pair 2: Serves, Cypriots: Provides
+  Pair 3: Ficino, Hurl: Throw
+  Pair 4: Intimidation, Neck: Threat
+
+Puzzle 17:
+  Pair 1: Bro, Cil: Brother
+  Pair 2: Microfilm, Characterization: Recording
+  Pair 3: Imports, Empires: Kingdoms
+  Pair 4: Machiavelli, Markets: Politics
+
+Puzzle 18:
+  Pair 1: Dough, Gravitate: Bread
+  Pair 2: Objected, Coarse: Protested
+  Pair 3: Vigil, Unintelligible: Watch
+  Pair 4: Morehouse, Entertains: Amuses
+
+Puzzle 19:
+  Pair 1: Excise, Venezia: Remove
+  Pair 2: Consciences, Drunk: Morals
+  Pair 3: Macro, Eventual: Large
+  Pair 4: Arya, Cree: Names
+
+Puzzle 20:
+  Pair 1: Omnipotent, Caleb: Powerful
+  Pair 2: Legitimized, Pugh: Validated
+  Pair 3: Produces, Commercially: Creates
+  Pair 4: Verlaine, Survive: Endure
+
+Puzzle 21:
+  Pair 1: Rachel, Insurer: Provider
+  Pair 2: Credence, Dewar: Belief
+  Pair 3: Nicht, Attic: Not
+  Pair 4: Lymphocytes, Ecosystem: Cells
+
+Puzzle 22:
+  Pair 1: Wielding, Snipers: Using
+  Pair 2: Meantime, Designation: Meanwhile
+  Pair 3: Inexplicably, Suboptimal: Mysteriously
+  Pair 4: Filler, Raided: Padding
+
+Puzzle 23:
+  Pair 1: Heats, Larkin: Warms
+  Pair 2: Campers, Hamster: Outdoors
+  Pair 3: Juin, Nada: June
+  Pair 4: Perilous, Paraphrasing: Dangerous
+
+Puzzle 24:
+  Pair 1: Lyceum, Trace: School
+  Pair 2: Mourner, Finger: Griever
+  Pair 3: Tin, Lothar: Metal
+  Pair 4: Denaturation, Volunteered: Unfolding
+
+Puzzle 25:
+  Pair 1: Binocular, Violations: Vision
+  Pair 2: Nothings, Speech: Talk
+  Pair 3: Rising, Blume: Ascending
+  Pair 4: Conversions, Barium: Changes
+
+Puzzle 26:
+  Pair 1: Explication, Dielectric: Explanation
+  Pair 2: Pardons, Compress: Forgives
+  Pair 3: Begum, Councils: Queen
+  Pair 4: Caldwell, Syllable: Sound
+
+Puzzle 27:
+  Pair 1: Kidnapping, Silvery: Abduction
+  Pair 2: Humiliating, Substitution: Embarrassing
+  Pair 3: Abscesses, Ancient: Old
+  Pair 4: Pms, Socialist: Political
+
+Puzzle 28:
+  Pair 1: Misalignment, Asad: Crooked
+  Pair 2: Mycelium, Feedforward: Fungus
+  Pair 3: Soes, Nepali: Nepal
+  Pair 4: Foams, Acrobat: Bubbles
+
+Puzzle 29:
+  Pair 1: Apply, Foretell: Predict
+  Pair 2: Metropolitan, Sheba: Urban
+  Pair 3: Documentary, Berenson: Film
+  Pair 4: Jennifer, Holbrook: Name
+
+Puzzle 30:
+  Pair 1: Acquittal, Lorenz: Release
+  Pair 2: Scores, Tits: Points
+  Pair 3: Silently, Printed: Quietly
+  Pair 4: Favourites, Watkins: Preferred
+
+Puzzle 31:
+  Pair 1: Degrades, Nurse: Worsens
+  Pair 2: Antisemitic, Blazer: Jacket
+  Pair 3: Keppel, Engineer: Designer
+  Pair 4: Bhopal, Ngc: India
+
+Puzzle 32:
+  Pair 1: Coolie, Blowing: Laborer
+  Pair 2: Comely, Simplistic: Attractive
+  Pair 3: Gautama, Jessie: Buddha
+  Pair 4: Inherited, Estimated: Received
+
+Puzzle 33:
+  Pair 1: Avoid, Conflagration: Evade
+  Pair 2: Tanya, Sauvignon: Wine
+  Pair 3: Subjection, Exudate: Submission
+  Pair 4: Irritants, Tragic: Annoying
+
+Puzzle 34:
+  Pair 1: Resident, Showers: Inhabitant
+  Pair 2: Normalcy, Microbial: Normal
+  Pair 3: Sustains, Rearing: Maintains
+  Pair 4: Sham, Sleeper: Fake
+
+Puzzle 35:
+  Pair 1: Microvascular, Agni: Vessels
+  Pair 2: Quartermaster, Consuming: Supplier
+  Pair 3: Bachman, Postmodernist: Artist
+  Pair 4: Corti, Instrumentalities: Tools
+
+Puzzle 36:
+  Pair 1: Academy, Favourably: School
+  Pair 2: Limited, Afterlife: Restricted
+  Pair 3: Bahrain, Pearl: Island
+  Pair 4: Recurrent, Brooded: Repeated
+
+Puzzle 37:
+  Pair 1: Ans, Omitted: Skipped
+  Pair 2: Annoyance, Apostrophe: Irritation
+  Pair 3: Spraying, Beneficial: Helpful
+  Pair 4: Swallows, Martin: Birds
+
+Puzzle 38:
+  Pair 1: Heidegger, Vedanta: Philosophy
+  Pair 2: Droplet, Approximated: Estimated
+  Pair 3: Forbidden, Onlooker: Prohibited
+  Pair 4: Mina, Clergymen: Priests
+
+Puzzle 39:
+  Pair 1: Interdependence, Types: Connection
+  Pair 2: Mirage, Praised: Illusion
+  Pair 3: Grumbled, Influencing: Complained
+  Pair 4: Radishes, Joinder: Vegetables
+
+Puzzle 40:
+  Pair 1: Scold, Vara: Rebuke
+  Pair 2: Faerie, Austenite: Fairy
+  Pair 3: Nanjing, Entropy: City
+  Pair 4: Ryerson, Polynomial: Equation
+
+Puzzle 41:
+  Pair 1: Parallelism, Suddenness: Simultaneous
+  Pair 2: Aucun, Exact: None
+  Pair 3: Favored, Crazy: Preferred
+  Pair 4: Vasopressin, Riveted: Hormone
+
+Puzzle 42:
+  Pair 1: Agitating, Scrutiny: Stirring
+  Pair 2: Dominicans, Yanks: Americans
+  Pair 3: Regulate, Fortified: Control
+  Pair 4: Ballinger, Truthful: Honest
+
+Puzzle 43:
+  Pair 1: Downwards, Etiquette: Descending
+  Pair 2: Foramina, Kippur: Openings
+  Pair 3: Affective, Artichokes: Emotional
+  Pair 4: Move, Gujarat: Relocate
+
+Puzzle 44:
+  Pair 1: Benediction, Spermatic: Blessing
+  Pair 2: Battleships, Cio: Warships
+  Pair 3: Allusion, Crete: Reference
+  Pair 4: Acer, Slats: Wood
+
+Puzzle 45:
+  Pair 1: Staring, Chancel: Gazing
+  Pair 2: Ecliptic, Rifts: Orbital
+  Pair 3: Hence, Rafters: Therefore
+  Pair 4: Interleukin, Aci: Protein
+
+Puzzle 46:
+  Pair 1: Carney, Pues: Name
+  Pair 2: Windings, Igf: Coils
+  Pair 3: Ati, Dossier: File
+  Pair 4: Scrawny, Mulch: Thin
+
+Puzzle 47:
+  Pair 1: Senza, Postgraduate: Without
+  Pair 2: Wealthiest, Applying: Richest
+  Pair 3: Transpersonal, Logging: Recording
+  Pair 4: Wisps, Lockout: Strands
+
+Puzzle 48:
+  Pair 1: Jar, Harv: Container
+  Pair 2: Beech, Bosnia: Tree
+  Pair 3: Bruxelles, Extract: Brussels
+  Pair 4: Redirected, Denizens: Inhabitants
+
+Puzzle 49:
+  Pair 1: Weaker, Diameters: Feebler
+  Pair 2: Aversion, Intramolecular: Dislike
+  Pair 3: Lettres, Paws: Letters
+  Pair 4: Executive, Chords: Manager
+
+Puzzle 50:
+  Pair 1: Repayments, Fled: Escaped
+  Pair 2: Sterilize, Dyadic: Clean
+  Pair 3: Oliphant, Helices: Spirals
+  Pair 4: Enumerated, Nehru: Listed
+
