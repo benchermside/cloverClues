@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Tutorial - Clover Clues</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,6 +11,10 @@
         <div class="content">
             <!-- Game Board -->
             <div class="game-board">
+                <div class="clue top-clue">octipuse</div>
+                <div class="clue right-clue">cheese</div>
+                <div class="clue bottom-clue">magic</div>
+                <div class="clue left-clue">winter</div>
                 <div class="board-grid">
                     <div class="card-slot"></div>
                     <div class="card-slot"></div>
@@ -24,26 +29,29 @@
                 <div style="display: flex; gap: 20px; justify-content: center;">
                     <div class="card-slot card-holder">
                         <div class="game-card" draggable="true">
-                            <div class="card-word top">TOP</div>
-                            <div class="card-word right">RIGHT</div>
-                            <div class="card-word bottom">BOTTOM</div>
-                            <div class="card-word left">LEFT</div>
+                            <div class="card-word top">camaflage</div>
+                            <div class="card-word right">chicken</div>
+                            <div class="card-word bottom">elephant</div>
+                            <div class="card-word left">blue</div>
+                            <button class="rotate-btn">↻</button>
                         </div>
                     </div>
                     <div class="card-slot card-holder">
                         <div class="game-card" draggable="true">
-                            <div class="card-word top">WORD</div>
-                            <div class="card-word right">CLUE</div>
-                            <div class="card-word bottom">GAME</div>
-                            <div class="card-word left">PLAY</div>
+                            <div class="card-word top">eight</div>
+                            <div class="card-word right">cold</div>
+                            <div class="card-word bottom">glide</div>
+                            <div class="card-word left">share</div>
+                            <button class="rotate-btn">↻</button>
                         </div>
                     </div>
                     <div class="card-slot card-holder">
                         <div class="game-card" draggable="true">
-                            <div class="card-word top">NORTH</div>
-                            <div class="card-word right">EAST</div>
-                            <div class="card-word bottom">SOUTH</div>
-                            <div class="card-word left">WEST</div>
+                            <div class="card-word top">shred</div>
+                            <div class="card-word right">furr</div>
+                            <div class="card-word bottom">pepper</div>
+                            <div class="card-word left">rabbit</div>
+                            <button class="rotate-btn">↻</button>
                         </div>
                     </div>
                 </div>
@@ -51,18 +59,20 @@
                 <div style="display: flex; gap: 20px; justify-content: center;">
                     <div class="card-slot card-holder">
                         <div class="game-card" draggable="true">
-                            <div class="card-word top">HELLO</div>
-                            <div class="card-word right">WORLD</div>
-                            <div class="card-word bottom">GOOD</div>
-                            <div class="card-word left">BYE</div>
+                            <div class="card-word top">true</div>
+                            <div class="card-word right">soft</div>
+                            <div class="card-word bottom">summer</div>
+                            <div class="card-word left">farry</div>
+                            <button class="rotate-btn">↻</button>
                         </div>
                     </div>
                     <div class="card-slot card-holder">
                         <div class="game-card" draggable="true">
-                            <div class="card-word top">FIRST</div>
-                            <div class="card-word right">SECOND</div>
-                            <div class="card-word bottom">THIRD</div>
-                            <div class="card-word left">FOURTH</div>
+                            <div class="card-word top">fly</div>
+                            <div class="card-word right">gift</div>
+                            <div class="card-word bottom">bold</div>
+                            <div class="card-word left">tatoo</div>
+                            <button class="rotate-btn">↻</button>
                         </div>
                     </div>
                 </div>
@@ -77,17 +87,27 @@
         let draggedCard = null;
         let draggedCardOriginalParent = null;
         let draggedCardOriginalNextSibling = null;
+        
+        // Track rotation state for each card (0, 90, 180, 270 degrees)
+        const cardRotations = new Map();
 
         // Add drag event listeners to all cards
         document.querySelectorAll('.game-card').forEach(card => {
             card.addEventListener('dragstart', handleDragStart);
             card.addEventListener('dragend', handleDragEnd);
+            // Initialize rotation state
+            cardRotations.set(card, 0);
         });
 
         // Add drop event listeners to all card slots
         document.querySelectorAll('.card-slot').forEach(slot => {
             slot.addEventListener('dragover', handleDragOver);
             slot.addEventListener('drop', handleDrop);
+        });
+        
+        // Add click event listeners to all rotate buttons
+        document.querySelectorAll('.rotate-btn').forEach(btn => {
+            btn.addEventListener('click', handleRotate);
         });
 
         function handleDragStart(e) {
@@ -134,6 +154,29 @@
                     dropTarget.classList.add('occupied');
                 }
             }
+        }
+        
+        function handleRotate(e) {
+            e.stopPropagation(); // Prevent triggering drag
+            const gameCard = e.target.closest('.game-card');
+            if (!gameCard) return;
+            
+            // Get current rotation
+            let currentRotation = cardRotations.get(gameCard) || 0;
+            
+            // Rotate counterclockwise (add 90 degrees)
+            currentRotation = (currentRotation + 90) % 360;
+            cardRotations.set(gameCard, currentRotation);
+            
+            // Get the word elements
+            const words = gameCard.querySelectorAll('.card-word');
+            const wordTexts = Array.from(words).map(word => word.textContent);
+            
+            // Rotate words counterclockwise: top -> left, right -> top, bottom -> right, left -> bottom
+            words[0].textContent = wordTexts[1]; // top gets right's text
+            words[1].textContent = wordTexts[2]; // right gets bottom's text
+            words[2].textContent = wordTexts[3]; // bottom gets left's text
+            words[3].textContent = wordTexts[0]; // left gets top's text
         }
     </script>
 </body>
