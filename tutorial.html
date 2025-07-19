@@ -9,6 +9,12 @@
     <div class="container">
         <h1>Tutorial</h1>
         <div class="content">
+            <!-- Tutorial Message Area -->
+            <div id="tutorial-message-area" class="tutorial-message-area">
+                <p id="tutorial-text"></p>
+                <button id="tutorial-next" class="tutorial-button" style="display: none;">Next</button>
+            </div>
+            
             <!-- Game Board -->
             <div class="game-board">
                 <div class="clue top-clue">octipuse</div>
@@ -90,6 +96,108 @@
         
         // Track rotation state for each card (0, 90, 180, 270 degrees)
         const cardRotations = new Map();
+        
+        // Tutorial System
+        let currentTutorialStep = 0;
+        const tutorialSteps = [
+            {
+                message: "Each of these words is a clue for 2 of the words on the cards.\n\nLet's start with looking for cards for octopus",
+                action: "start",
+                checkCompletion: () => false // This step completes immediately
+            },
+            {
+                message: "Great! Now drag the card with 'eight' to the top-left position on the board.",
+                action: "drag_eight",
+                checkCompletion: () => {
+                    const topLeftSlot = document.querySelector('.board-grid .card-slot:first-child');
+                    const card = topLeftSlot.querySelector('.game-card');
+                    if (card) {
+                        const words = Array.from(card.querySelectorAll('.card-word')).map(w => w.textContent);
+                        return words.includes('eight');
+                    }
+                    return false;
+                }
+            },
+            {
+                message: "Excellent! Now find another card that relates to octopus and place it in the top-right position.",
+                action: "drag_octopus_second",
+                checkCompletion: () => {
+                    const topRightSlot = document.querySelector('.board-grid .card-slot:nth-child(2)');
+                    const card = topRightSlot.querySelector('.game-card');
+                    if (card) {
+                        const words = Array.from(card.querySelectorAll('.card-word')).map(w => w.textContent);
+                        // Looking for cards with words that relate to octopus (like "camaflage")
+                        return words.includes('camaflage');
+                    }
+                    return false;
+                }
+            },
+            {
+                message: "Perfect! Now you need to rotate the cards so that the words matching 'octopus' are facing the top clue.",
+                action: "rotate_for_octopus",
+                checkCompletion: () => {
+                    const topLeftSlot = document.querySelector('.board-grid .card-slot:first-child');
+                    const topRightSlot = document.querySelector('.board-grid .card-slot:nth-child(2)');
+                    const card1 = topLeftSlot.querySelector('.game-card');
+                    const card2 = topRightSlot.querySelector('.game-card');
+                    
+                    if (card1 && card2) {
+                        const topWord1 = card1.querySelector('.card-word.top').textContent;
+                        const topWord2 = card2.querySelector('.card-word.top').textContent;
+                        return topWord1 === 'eight' && topWord2 === 'camaflage';
+                    }
+                    return false;
+                }
+            },
+            {
+                message: "Wonderful! You've completed the octopus clue. Now try to complete the rest of the puzzle on your own!",
+                action: "complete",
+                checkCompletion: () => true // Final step
+            }
+        ];
+        
+        function showTutorialStep() {
+            const messageArea = document.getElementById('tutorial-message-area');
+            const text = document.getElementById('tutorial-text');
+            const nextButton = document.getElementById('tutorial-next');
+            
+            if (currentTutorialStep < tutorialSteps.length) {
+                const step = tutorialSteps[currentTutorialStep];
+                text.textContent = step.message;
+                messageArea.style.display = 'flex';
+                
+                // Show next button only for the first step
+                if (currentTutorialStep === 0) {
+                    nextButton.style.display = 'inline-block';
+                } else {
+                    nextButton.style.display = 'none';
+                }
+            } else {
+                // Hide the tutorial message area when tutorial is complete
+                messageArea.style.display = 'none';
+            }
+        }
+        
+        function checkTutorialProgress() {
+            if (currentTutorialStep > 0 && currentTutorialStep < tutorialSteps.length) {
+                const step = tutorialSteps[currentTutorialStep];
+                if (step.checkCompletion()) {
+                    currentTutorialStep++;
+                    showTutorialStep();
+                }
+            }
+        }
+        
+        // Initialize tutorial on page load
+        window.addEventListener('load', () => {
+            showTutorialStep();
+        });
+        
+        // Handle next button click
+        document.getElementById('tutorial-next').addEventListener('click', () => {
+            currentTutorialStep++;
+            showTutorialStep();
+        });
 
         // Add drag event listeners to all cards
         document.querySelectorAll('.game-card').forEach(card => {
@@ -153,6 +261,9 @@
                 if (!dropTarget.classList.contains('card-holder')) {
                     dropTarget.classList.add('occupied');
                 }
+                
+                // Check tutorial progress after drop
+                checkTutorialProgress();
             }
         }
         
@@ -177,6 +288,9 @@
             words[1].textContent = wordTexts[2]; // right gets bottom's text
             words[2].textContent = wordTexts[3]; // bottom gets left's text
             words[3].textContent = wordTexts[0]; // left gets top's text
+            
+            // Check tutorial progress after rotation
+            checkTutorialProgress();
         }
     </script>
 </body>
