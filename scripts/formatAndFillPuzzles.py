@@ -8,6 +8,7 @@ Usage: python formatAndFillPuzzles.py <input_file> <output_file>
 import sys
 import json
 import re
+from word_selector import get_random_word
 
 
 def parse_puzzles(input_file):
@@ -44,7 +45,7 @@ def parse_puzzles(input_file):
                     # Add card with id i+1
                     card = {
                         "id": i + 1,
-                        "words": [word1, word2, "null", "null"]
+                        "words": [word1, word2, get_random_word(), get_random_word()]
                     }
                     puzzle_data["cards"].append(card)
                     
@@ -57,10 +58,10 @@ def parse_puzzles(input_file):
                         "orient": 0
                     })
         
-        # Add 5th card with all null words
+        # Add 5th card with all random words
         puzzle_data["cards"].append({
             "id": 5,
-            "words": ["null", "null", "null", "null"]
+            "words": [get_random_word(), get_random_word(), get_random_word(), get_random_word()]
         })
         
         if len(puzzle_data["cards"]) == 5 and len(puzzle_data["clues"]) == 4:

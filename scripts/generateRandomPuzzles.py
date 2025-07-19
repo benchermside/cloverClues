@@ -1,25 +1,9 @@
 #!/usr/bin/env python3
 
 import sys
-import random
-import os
+from word_selector import load_wordlist, selectRandomWord
 
 NUMBER_OF_PUZZLES = 50
-
-def selectRandomWord(all_words, used_words):
-    while True:
-        word = random.choice(all_words)
-        
-        if word in used_words:
-            continue
-            
-        if len(word) < 3:
-            continue
-            
-        if not word.isalpha():
-            continue
-            
-        return word.capitalize()
 
 def main():
     if len(sys.argv) != 2:
@@ -27,16 +11,14 @@ def main():
         sys.exit(1)
     
     output_file = sys.argv[1]
-    wordlist_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'wordlist.txt')
     
     try:
-        with open(wordlist_file, 'r') as f:
-            all_words = [line.strip() for line in f if line.strip()]
-    except FileNotFoundError:
-        print(f"Error: Could not find wordlist file at {wordlist_file}")
+        all_words = load_wordlist()
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
         sys.exit(1)
     except Exception as e:
-        print(f"Error reading wordlist file: {e}")
+        print(f"Error: {e}")
         sys.exit(1)
     
     words_needed = NUMBER_OF_PUZZLES * 8
