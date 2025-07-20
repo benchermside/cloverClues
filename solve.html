@@ -179,7 +179,7 @@
             words[3].textContent = wordTexts[0]; // left gets top's text
         }
 
-        async function loadPuzzle(filename) {
+        async function loadPuzzleFromFile(filename) {
             try {
                 const response = await fetch(filename);
                 const puzzles = await response.json();
@@ -188,9 +188,24 @@
                 console.error('Error loading puzzles.json:', error);
             }
         }
+
+        async function loadPuzzle(puzzleId) {
+            try {
+                const url = `https://a47pu3b6jocvs6pjo7nmv6fl7a0vldrv.lambda-url.us-east-1.on.aws/?puzzleId=${puzzleId}`;
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const puzzle = await response.json();
+                return puzzle;
+            } catch (error) {
+                console.error('Error loading puzzle from API:', error);
+                throw error;
+            }
+        }
         async function initSolve(){
             console.log("hi")
-            const puzzle = await loadPuzzle("puzzles.json");
+            const puzzle = await loadPuzzle(0);
             console.log(puzzle);
             
             // Get all game cards
