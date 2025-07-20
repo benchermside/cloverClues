@@ -2,7 +2,7 @@ let draggedCard = null;
 let draggedCardOriginalParent = null;
 let draggedCardOriginalNextSibling = null;
 
-// Track rotation state for each card (0, 90, 180, 270 degrees)
+// Track rotation state for each card (0, 1, 2, 3 representing 0°, 90°, 180°, 270°)
 const cardRotations = new Map();
 // Track card IDs
 const cardIds = new Map();
@@ -82,8 +82,8 @@ function handleRotate(e) {
     // Get current rotation
     let currentRotation = cardRotations.get(gameCard) || 0;
     
-    // Rotate counterclockwise (add 90 degrees)
-    currentRotation = (currentRotation + 90) % 360;
+    // Rotate counterclockwise (increment rotation count)
+    currentRotation = (currentRotation + 1) % 4;
     cardRotations.set(gameCard, currentRotation);
     
     // Get the word elements
@@ -128,14 +128,17 @@ async function loadPuzzle(puzzleId) {
 }
 
 /*
- * This function accepts a puzzle (in JSON format). It returns that same
- * puzzle, but the order of the cards and the orientation of each has been
- * randomized.
+ * This function accepts a puzzle (in JSON format). It returns a new
+ * puzzle object with the order of the cards and the orientation of each
+ * randomized. The original puzzle is not modified.
  */
 function shuffleCards(puzzle) {
+    // Create a deep copy of the puzzle to avoid modifying the original
+    const shuffledPuzzle = JSON.parse(JSON.stringify(puzzle));
+    
     // Shuffle the cards array using Fisher-Yates algorithm
-    if (puzzle.cards && puzzle.cards.length > 0) {
-        const cards = puzzle.cards;
+    if (shuffledPuzzle.cards && shuffledPuzzle.cards.length > 0) {
+        const cards = shuffledPuzzle.cards;
         
         // Fisher-Yates shuffle
         for (let i = cards.length - 1; i > 0; i--) {
@@ -143,28 +146,30 @@ function shuffleCards(puzzle) {
             [cards[i], cards[j]] = [cards[j], cards[i]];
         }
 
-        // ---- This section is commented out because it's not safe to use (yet) ----
-        /*
         // Randomly rotate each card (0, 1, 2, or 3 times)
         cards.forEach(card => {
             const rotations = Math.floor(Math.random() * 4);
-            
-            if (rotations > 0 && card.words && card.words.length === 4) {
-                // Rotate the words array clockwise
-                for (let r = 0; r < rotations; r++) {
-                    // Rotate clockwise: [top, left, bottom, right] -> [right, top, left, bottom]
-                    const temp = card.words[3];
-                    card.words[3] = card.words[2];
-                    card.words[2] = card.words[1];
-                    card.words[1] = card.words[0];
-                    card.words[0] = temp;
-                }
+
+            // Rotate the words array clockwise
+            for (let r = 0; r < rotations; r++) {
+                // Rotate clockwise: [top, left, bottom, right] -> [right, top, left, bottom]
+                const temp = card.words[3];
+                card.words[3] = card.words[2];
+                card.words[2] = card.words[1];
+                card.words[1] = card.words[0];
+                card.words[0] = temp;
             }
+
+            // Update the orient field in the solution for this card
+            shuffledPuzzle.solution.forEach(solutionCard => {
+                if (solutionCard.id === card.id) {
+                    solutionCard.orient = (solutionCard.orient + 4 - rotations) % 4;
+                }
+            });
         });
-        */
     }
     
-    return puzzle;
+    return shuffledPuzzle;
 }
 
 /*
@@ -172,7 +177,8 @@ function shuffleCards(puzzle) {
  * information from the puzzle.
  */
 async function initSolve(){
-    const puzzle = shuffleCards( await loadPuzzle(0) );
+    const originalPuzzle = await loadPuzzle(0);
+    const puzzle = shuffleCards(originalPuzzle);
 
     // Get all game cards
     const gameCards = document.querySelectorAll('.game-card');
@@ -227,7 +233,6 @@ async function initSolve(){
 window.addEventListener('load', initSolve);
 
 function checkSolution() {
-    console.log("puzzleSolution", puzzleSolution);
     if (!puzzleSolution) {
         console.log('No solution data available');
         return false;
@@ -252,7 +257,7 @@ function checkSolution() {
         }
         
         const expectedId = expectedSolution.id;
-        const expectedRotation = (expectedSolution.orient * 90) % 360;
+        const expectedRotation = expectedSolution.orient % 4;
         
         if (cardId !== expectedId || cardRotation !== expectedRotation) {
             console.log("found problem", cardId, expectedId, cardRotation, expectedRotation);
