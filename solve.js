@@ -30,6 +30,10 @@ document.querySelectorAll('.rotate-btn').forEach(btn => {
 
 function handleDragStart(e) {
     draggedCard = e.target;
+
+    // any animations on a card should be canceled if we start to drag it
+    draggedCard.classList.remove("rotate-animation");
+
     draggedCardOriginalParent = e.target.parentNode;
     draggedCardOriginalNextSibling = e.target.nextSibling;
     
@@ -78,7 +82,7 @@ function handleRotate(e) {
     e.stopPropagation(); // Prevent triggering drag
     const gameCard = e.target.closest('.game-card');
     if (!gameCard) return;
-    
+
     // Get current rotation
     let currentRotation = cardRotations.get(gameCard) || 0;
     
@@ -95,6 +99,13 @@ function handleRotate(e) {
     words[1].textContent = wordTexts[2]; // right gets bottom's text
     words[2].textContent = wordTexts[3]; // bottom gets left's text
     words[3].textContent = wordTexts[0]; // left gets top's text
+
+    gameCard.classList.add("rotate-animation");
+
+    // Remove the animation class after it finishes animating
+    setTimeout(() => {
+        gameCard.classList.remove("rotate-animation");
+    }, 500);
 }
 
 // TODO: Remove this

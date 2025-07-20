@@ -366,3 +366,19 @@ h1 {
     background-color: #2ecc71;
     transform: translateY(-1px);
 }
+
+/* Rotation Animation Class */
+.rotate-animation {
+    animation: rotate90 500ms ease-in-out;
+}
+
+@keyframes rotate90 {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
