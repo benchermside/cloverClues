@@ -191,6 +191,17 @@ h1 {
     background-color: rgba(39, 174, 96, 0.1);
 }
 
+#card-holder-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Rotate Button Styles */
 .rotate-btn {
     position: absolute;

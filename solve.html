@@ -26,40 +26,40 @@
             </div>
             
             <!-- Card Holders -->
-            <div id="card-holder-area" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; max-width: 490px; margin-left: auto; margin-right: auto;">
+            <div id="card-holder-area">
                 <div class="card-slot card-holder">
                     <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
+                        <div class="card-word top"></div>
+                        <div class="card-word right"></div>
+                        <div class="card-word bottom"></div>
+                        <div class="card-word left"></div>
                         <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
                     <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
+                        <div class="card-word top"></div>
+                        <div class="card-word right"></div>
+                        <div class="card-word bottom"></div>
+                        <div class="card-word left"></div>
                         <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
                     <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
+                        <div class="card-word top"></div>
+                        <div class="card-word right"></div>
+                        <div class="card-word bottom"></div>
+                        <div class="card-word left"></div>
                         <button class="rotate-btn">↻</button>
                     </div>
                 </div>
                 <div class="card-slot card-holder">
                     <div class="game-card" draggable="true">
-                        <div class="card-word top">TOP</div>
-                        <div class="card-word right">RIGHT</div>
-                        <div class="card-word bottom">BOTTOM</div>
-                        <div class="card-word left">LEFT</div>
+                        <div class="card-word top"></div>
+                        <div class="card-word right"></div>
+                        <div class="card-word bottom"></div>
+                        <div class="card-word left"></div>
                         <button class="rotate-btn">↻</button>
                     </div>
                 </div>
@@ -204,10 +204,8 @@
             }
         }
         async function initSolve(){
-            console.log("hi")
             const puzzle = await loadPuzzle(0);
-            console.log(puzzle);
-            
+
             // Get all game cards
             const gameCards = document.querySelectorAll('.game-card');
             
