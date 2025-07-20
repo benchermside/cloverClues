@@ -108,17 +108,6 @@ function handleRotate(e) {
     }, 500);
 }
 
-// TODO: Remove this
-async function loadPuzzleFromFile(filename) {
-    try {
-        const response = await fetch(filename);
-        const puzzles = await response.json();
-        return puzzles[0];
-    } catch (error) {
-        console.error('Error loading puzzles.json:', error);
-    }
-}
-
 /*
  * This loads a puzzle from the server. It is passed the puzzleId (a number)
  * and returns the JSON format of the puzzle.

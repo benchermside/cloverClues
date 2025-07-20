@@ -7,12 +7,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Solve Clues</h1>
-        <button class="solve-button" onclick="solveAttempt()">Solve</button>
-        <div id="error-message" class="error-message"></div>
         <div class="content">
             <!-- Game Board -->
             <div class="game-board">
+                <a href="index.html" class="nav-button control-button back-to-menu">Quit</a>
+                <button class="control-button solve-button" onclick="solveAttempt()">Solve</button>
                 <div class="clue top-clue"></div>
                 <div class="clue right-clue"></div>
                 <div class="clue bottom-clue"></div>
@@ -23,6 +22,7 @@
                     <div class="card-slot"></div>
                     <div class="card-slot"></div>
                 </div>
+                <div id="error-message" class="error-message"></div>
             </div>
             
             <!-- Card Holders -->
@@ -73,9 +73,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="navigation">
-            <a href="index.html" class="nav-button">Back to Menu</a>
         </div>
     </div>
     
